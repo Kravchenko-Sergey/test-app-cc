@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.description {
+  color: gray;
+}
+
+.photos {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo {
+  width: 146px;
+  height: 146px;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  width: 146px;
+  padding: 10px 0;
+}
